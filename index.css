@@ -1,0 +1,35 @@
+html {
+    background-color: black;
+    text-align: center;
+    background-image: url("backgroundimage.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+.menu ul {
+    padding-left: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    font-size: larger;
+}
+
+.menu-item a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+.section {
+    text-align: left;
+    margin: 8px 100px 8px 780px;
+}

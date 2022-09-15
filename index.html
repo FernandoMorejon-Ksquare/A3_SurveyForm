@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="">
+    <header>
+        <meta charset="UTF-8">
+        <meta name="description" content=""> 
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+
+        <title>A3_SurveyForm</title>
+
+        <nav class="menu">
+            <ul>
+                <li class="menu-item"><a href="#">Home</a></li>
+                <li class="menu-item"><a href="#">Surveys</a></li>
+                <li class="menu-item"><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <main>
+            <section>
+                <br />
+                <h1>Survey Form</h1>
+                <br />
+                <br />
+                <form>
+
+                    <div class="section">
+
+                        <label for="name" id="name-label"> Name  </label> 
+                        <input  type="text" id="name" name="name" required="required" placeholder="Sir Elton John">
+                    
+                    </div>
+
+                        <br />
+                        <br />
+                    
+                    <div class="section">
+
+                        <label for="email" id="email-label"> Email  </label> 
+                        <input  type="email" id="email" name="email" required="required" placeholder="youremail@example.com">
+                   
+                    </div>
+
+                        <br />
+                        <br />
+
+                    <div class="section">
+
+                            <label for="number" id="number-label"> ¿How old are you?   </label> 
+                            <input id="number" type=number name="number" min=0 max=200 required="required" placeholder="0-200"> 
+                   
+                        </div>
+
+                        <br />
+
+                    <div class="section"> ¿How many cats do you have?
+
+                        <br />
+                        <br />
+                            <input type="radio" checked id="cgatos" name="cuantosgatos" value="0"> 0
+                            <input type="radio" id="cgatos" name="cuantosgatos" value="1"> 1
+                            <input type="radio" id="cgatos" name="cuantosgatos" value="2"> 2
+                            <input type="radio" id="cgatos" name="cuantosgatos" value="3"> 3
+                            <input type="radio" id="cgatos" name="cuantosgatos" value="4"> 4
+
+                    </div>
+
+                        <br />
+
+                    <div class="section">
+                           <label for="dropdown" id="colorgato"> ¿What color is your favorite cat?</label>
+                            <select name="color" id="dropdown">
+                            <option value="1">Negro</option>
+                            <option value="2">Blanco</option>
+                            <option value="3">Negro con manchas blancas</option>
+                            <option value="4">Blanco con manchas negras</option>
+                            <option value="5">Verde</option>
+                            <option value="6">Gris oscuro </option>
+                            <option value="7">Gris claro</option>
+                            <option value="8">Café</option>
+                            </select>
+                    </div>
+
+                    <div class="section">
+                            <br />
+                            <br />
+                            <br />
+                            <label for="surveys" id="surveys-label">Would you like to take more surveys later?</label>
+                            <input type="checkbox"  id="surveys" name="surveys" value="hablan">
+                    </div>
+
+                    <div class="section">
+                        <br />
+                        <br />
+                        <br />
+                            <label for="comentarios" id=comentarios1> Give us your comments </label><br>
+                            <textarea id="comentarios" name="comentarios" rows= 3 cols= 40> </textarea>
+                    </div>
+
+                </form>
+
+            </section>
+
+        
+
+        </main>
+
+    </body>
+
+    <footer>
+
+    </footer>
+
+
+</html>
